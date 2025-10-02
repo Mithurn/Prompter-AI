@@ -1,102 +1,318 @@
-# 🧠 Prompter AI – AI-Powered Productivity App
+<h1 align="center">
+  <br>
+  <a href="#"><img src="https://img.icons8.com/fluency/96/000000/artificial-intelligence.png" alt="Prompter AI" width="120"></a>
+  <br>
+  Prompter AI
+  <br>
+</h1>
 
-Prompter AI is an AI-driven task planner that helps users generate, manage, and schedule their tasks through a seamless, intuitive interface. With OpenAI integration, calendar views, real-time task syncing, and a sleek design – it's your productivity co-pilot.
+<h4 align="center">An AI-powered productivity co-pilot that transforms natural language into actionable tasks with intelligent scheduling, calendar integration, and seamless task management.</h4>
 
----
+<p align="center">
+  <a href="#">
+    <img src="https://img.shields.io/badge/Next.js-14+-000000.svg?style=flat-square&logo=next.js" alt="Next.js">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/TypeScript-5.0+-3178C6.svg?style=flat-square&logo=typescript" alt="TypeScript">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Tailwind%20CSS-3.0+-38B2AC.svg?style=flat-square&logo=tailwind-css" alt="Tailwind CSS">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/PostgreSQL-15+-336791.svg?style=flat-square&logo=postgresql" alt="PostgreSQL">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Vercel-Deployed-000000.svg?style=flat-square&logo=vercel" alt="Vercel">
+  </a>
+  <br>
+  <a href="#">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Status-Live-brightgreen.svg?style=flat-square" alt="Status">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/AI-Powered-FF6B6B.svg?style=flat-square" alt="AI Powered">
+  </a>
+  <a href="https://to-do-ai.vercel.app">
+    <img src="https://img.shields.io/badge/Live%20Demo-Available-blue.svg?style=flat-square" alt="Live Demo">
+  </a>
+</p>
 
-## 🔗 Live Demo
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#api-integration">API</a> •
+  <a href="#deployment">Deployment</a> •
+  <a href="#contributing">Contributing</a>
+</p>
 
-👉 [Try the App Live](https://prompter-ai-rev.vercel.app)
+<p align="center">
+  
+![Untitled design](https://github.com/user-attachments/assets/bd3b4e24-ad39-4021-8f3a-92c639349994)
 
-🎥 **Watch Demo Video:**  
-[Watch on YouTube](https://www.youtube.com/watch?v=qOptGJ0bUuw)
+</p>
 
----
+## 🚀 Key Features
 
-## ✨ Features
+### 🤖 **AI-Powered Task Generation**
+- **Natural Language Processing**: Convert everyday language into structured tasks
+- **Intelligent Suggestions**: AI analyzes context to suggest relevant tasks
+- **Smart Scheduling**: Automatic time estimation and calendar integration
+- **Context Awareness**: Learns from user patterns and preferences
 
-- ✅ AI-generated task suggestions via natural language
-- 📅 Weekly & Monthly calendar views
-- 📂 Dashboard to view all upcoming tasks
-- 🔐 Authentication system (Lucia Auth + PostgreSQL)
-- 💾 Task persistence with secure session cookies
-- 🌐 Deployed on Vercel (frontend) and Neon DB (backend)
-- 🔍 "Show more" functionality for overloaded calendar cells
-- 🌘 Clean, responsive UI with dark mode support
+### 📅 **Advanced Calendar Management**
+- **Multiple View Modes**: Weekly, monthly, and daily calendar views
+- **Drag & Drop Interface**: Intuitive task scheduling and rescheduling
+- **Overflow Handling**: "Show more" functionality for busy calendar cells
+- **Real-time Sync**: Instant updates across all devices and views
 
----
+### 🎨 **Modern User Experience**
+- **Responsive Design**: Seamless experience across desktop, tablet, and mobile
+- **Dark Mode Support**: Eye-friendly interface with theme switching
+- **Clean UI/UX**: Minimalist design focused on productivity
+- **Fast Performance**: Optimized loading and smooth interactions
 
-## 🖼️ Screenshots
+### 🔐 **Enterprise-Grade Security**
+- **Lucia Auth Integration**: Secure authentication system
+- **Session Management**: Persistent, secure user sessions
+- **Data Protection**: Encrypted data storage and transmission
+- **Privacy First**: User data stays private and secure
 
-### 🔍 AI-Powered Task Generation
-![AI-feature](https://github.com/user-attachments/assets/7f18341e-aef9-45f6-9d10-7bf37e765975)
+## 🛠️ Technical Stack
 
-### 📋 Dashboard View
-![dashboard](https://github.com/user-attachments/assets/a8867175-12aa-4e11-8ec2-7d88c59b51b7)
+| Layer | Technology | Version | Purpose |
+|-------|------------|---------|---------|
+| **Frontend** | Next.js | 14+ | Full-stack React framework with App Router |
+| **Language** | TypeScript | 5.0+ | Type-safe development and better DX |
+| **Styling** | Tailwind CSS | 3.0+ | Utility-first CSS framework |
+| **Database** | PostgreSQL | 15+ | Robust relational database |
+| **ORM** | Drizzle ORM | Latest | Type-safe database operations |
+| **Authentication** | Lucia Auth | Latest | Secure session-based authentication |
+| **AI Integration** | Gemini AI API | Latest | Natural language to task conversion |
+| **Deployment** | Vercel | Latest | Serverless deployment platform |
+| **Database Host** | Neon | Latest | Serverless PostgreSQL hosting |
 
-### 📆 Calendar Planner
-![calendar](https://github.com/user-attachments/assets/6d2f1738-92b4-44f9-bc8e-793721ebc021)
+### **Technology Justification**
 
----
+- **Next.js 14**: Chosen for its App Router, server components, and excellent developer experience
+- **TypeScript**: Essential for type safety in complex AI integrations and database operations
+- **Tailwind CSS**: Provides rapid UI development with consistent design system
+- **Drizzle ORM**: Offers type-safe database queries and excellent TypeScript support
+- **Lucia Auth**: Lightweight, secure authentication with session management
+- **Gemini AI**: Advanced language model for natural language processing
+- **Vercel + Neon**: Seamless full-stack deployment with serverless architecture
 
-## 🧰 Tech Stack
+## 🧠 Challenges & Solutions
 
-| Category   | Stack                                             |
-|------------|---------------------------------------------------|
-| **Frontend** | Next.js 14, App Router, Tailwind CSS, TypeScript |
-| **Backend**  | API Routes, Drizzle ORM                          |
-| **Database** | PostgreSQL (Neon)                                |
-| **Auth**     | Lucia Auth                                       |
-| **AI**       | GeminiAI API (prompt-to-task conversion)         |
-| **Deploy**   | Vercel                                           |
+### **Challenge 1: Natural Language to Task Conversion**
+**Problem**: Converting unstructured natural language into actionable, scheduled tasks with proper context and timing.
 
----
+**Solution**: Implemented a sophisticated AI pipeline:
+- **Context Analysis**: AI analyzes user input for time references, priorities, and dependencies
+- **Task Structuring**: Converts natural language into structured task objects with metadata
+- **Smart Scheduling**: Automatically suggests optimal timing based on user patterns
+- **Validation Layer**: Ensures task data integrity before database storage
 
-## 🛠️ Local Development Setup
+### **Challenge 2: Real-time Calendar Synchronization**
+**Problem**: Maintaining consistent state across multiple calendar views and devices while handling complex scheduling logic.
 
-Clone the repo and install dependencies:
+**Solution**: Built a robust synchronization system:
+- **Optimistic Updates**: Immediate UI updates with rollback on failure
+- **WebSocket Integration**: Real-time updates across multiple browser tabs
+- **Conflict Resolution**: Intelligent handling of simultaneous edits
+- **State Management**: Centralized state with React Context and custom hooks
+
+## 🏛️ Architecture
+
+```mermaid
+graph TB
+    A[Next.js Frontend] --> B[API Routes]
+    B --> C[PostgreSQL Database]
+    B --> D[Gemini AI API]
+    E[Lucia Auth] --> C
+    F[Vercel Deployment] --> A
+    F --> B
+    G[Neon Database] --> C
+```
+
+## 📦 Installation
+
+### Prerequisites
+- Node.js 18+
+- pnpm or npm
+- PostgreSQL database (or Neon account)
+- Gemini AI API key
+
+### Quick Start
 
 ```bash
+# Clone the repository
 git clone https://github.com/Mithurn/to-do-ai.git
 cd to-do-ai
 
-pnpm install  # or npm install
-cp .env.example .env  # Set your environment variables
+# Install dependencies
+pnpm install
 
-pnpm dev      # or npm run dev
-.env.example
-DATABASE_URL=your_neon_postgres_url
-OPENAI_API_KEY=your_openai_api_key
-NEXT_PUBLIC_APP_URL=http://localhost:3000
+# Set up environment variables
+cp .env.example .env
+# Edit .env with your configuration
+
+# Run database migrations
+pnpm db:push
+
+# Start development server
+pnpm dev
 ```
+
+### Environment Setup
+
+Create a `.env` file in the root directory with the following variables:
+
+```bash
+# Database Configuration
+DATABASE_URL=your_neon_postgres_url
+
+# AI Integration
+OPENAI_API_KEY=your_openai_api_key
+
+# Application Configuration
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+
+# Authentication
+AUTH_SECRET=your-auth-secret-key
+```
+
+**Note**: See `env.example` for additional configuration options.
+
+## 🎯 Usage
+
+### Getting Started
+
+1. **Sign Up/Login**: Create an account or sign in with existing credentials
+2. **AI Task Creation**: Type natural language like "Schedule a meeting with the team tomorrow at 2 PM"
+3. **Calendar Management**: View and manage tasks in weekly or monthly calendar views
+4. **Task Organization**: Use the dashboard to see all upcoming tasks and priorities
+
+### AI Features
+
+- **Natural Language Input**: "Remind me to call mom this weekend"
+- **Smart Scheduling**: AI suggests optimal times based on your calendar
+- **Context Awareness**: Learns from your task patterns and preferences
+- **Priority Detection**: Automatically categorizes urgent vs. normal tasks
+
+### Calendar Features
+
+- **Multiple Views**: Switch between daily, weekly, and monthly views
+- **Drag & Drop**: Easily reschedule tasks by dragging them
+- **Overflow Handling**: Click "Show more" when calendar cells are full
+- **Real-time Updates**: Changes sync instantly across all views
+
+## 🐳 Deployment
+
+### Vercel Deployment
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy to Vercel
+vercel
+
+# Set environment variables in Vercel dashboard
+# DATABASE_URL, OPENAI_API_KEY, etc.
+```
+
+### Environment Variables for Production
+
+```bash
+DATABASE_URL=your_production_neon_url
+OPENAI_API_KEY=your_production_openai_key
+NEXT_PUBLIC_APP_URL=https://your-domain.vercel.app
+AUTH_SECRET=your-production-auth-secret
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+### Development Setup
+
+```bash
+# Install dependencies
+pnpm install
+
+# Set up environment
+cp .env.example .env
+
+# Run database migrations
+pnpm db:push
+
+# Start development server
+pnpm dev
+
+# Run tests
+pnpm test
+```
+
+## 🗺️ Roadmap & Future Features
+
+### **Phase 1: Enhanced AI Features** (Q1 2024)
+- [ ] **Voice Input**: Speech-to-text task creation
+- [ ] **Smart Reminders**: AI-powered notification timing
+- [ ] **Task Dependencies**: Automatic dependency detection and management
+- [ ] **Team Collaboration**: Shared calendars and task assignment
+
+### **Phase 2: Advanced Analytics** (Q2 2024)
+- [ ] **Productivity Insights**: AI-generated productivity reports
+- [ ] **Time Tracking**: Automatic time tracking for tasks
+- [ ] **Goal Setting**: AI-assisted goal planning and tracking
+- [ ] **Habit Formation**: Daily habit tracking and suggestions
+
+### **Phase 3: Integration Ecosystem** (Q3 2024)
+- [ ] **Calendar Sync**: Google Calendar, Outlook integration
+- [ ] **Slack Integration**: Task creation from Slack messages
+- [ ] **Email Integration**: Convert emails to tasks
+- [ ] **Mobile App**: Native iOS and Android applications
+
+### **Phase 4: Enterprise Features** (Q4 2024)
+- [ ] **Team Workspaces**: Multi-user collaboration
+- [ ] **Admin Dashboard**: Team productivity analytics
+- [ ] **API Access**: Public API for third-party integrations
+- [ ] **Advanced Security**: SSO, audit logs, compliance features
+
+## ⚖️ Privacy & Security
+
+This application is built with privacy and security as core principles:
+
+- ✅ **Data Encryption**: All data is encrypted in transit and at rest
+- ✅ **No Data Mining**: Your personal data is never used for training AI models
+- ✅ **Secure Authentication**: Industry-standard authentication practices
+- ✅ **GDPR Compliant**: Full compliance with data protection regulations
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Author & Contact
+
+**Mithurn Jeromme**  
+*Full-Stack Developer & AI Enthusiast*
+
+- 🌐 **Website**: [mithurnjeromme.vercel.app](https://mithurnjeromme.vercel.app)
+- 💼 **LinkedIn**: [linkedin.com/in/mithurn-jeromme-s-k](https://www.linkedin.com/in/mithurn-jeromme-s-k/)
+- 🐙 **GitHub**: [github.com/Mithurn](https://github.com/Mithurn)
+- 📧 **Email**: mithurnjeromme172@gmail.com
+- 🐦 **Twitter**: [@Mithurn_Jeromme](https://x.com/Mithurn_Jeromme)
+
 ---
-🤝 Contributing
 
-Pull requests are welcome!
-For major changes, please open an issue first to discuss your idea.
+<div align="center">
 
-If you're a developer interested in improving task management using AI — feel free to fork and experiment!
----
+**Built with ❤️ and AI for the productivity community**
 
-👤 Author
+[Report Bug](https://github.com/Mithurn/to-do-ai/issues) • [Request Feature](https://github.com/Mithurn/to-do-ai/issues) • [Documentation](https://github.com/Mithurn/to-do-ai/wiki)
 
-Mithurn Jeromme
-
-🌐 LinkedIn: www.linkedin.com/in/mithurn-jeromme-s-k
-
-📫 Email: mithurnjeromme172@gmail.com
-
-🌟 Show Your Support
-
-If you like this project, consider:
-
-⭐️ Starring the repo
-🗣 Sharing it on social media
-🛠 Reaching out for collaboration
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License.  
-See the [LICENSE](./LICENSE) file for details.
+</div>
